@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="AI VISUAL INSPECTOR", page_icon="🧪", layout="centered")
 
 # App title with custom style
-st.markdown("<h1 style='text-align: center; color: #1E90FF;'>🧪 Welding Defect Detector</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #1E90FF;'>🧪 AI VISUAL INSPECTOR</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
 MODEL_PATH = "best.pt"
