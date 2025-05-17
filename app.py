@@ -7,8 +7,8 @@ import tempfile
 model = YOLO("weights/best.pt")  # Correct: path to the actual weights file
 
 st.set_page_config(page_title="Welding Defect Detector", layout="centered")
-st.title("🛠️ Welding Defect Detector")
-st.markdown("Upload a welding image to detect and classify defects like porosity, pinhole, crack, etc.")
+st.title("🛠️ AI VISUAL INSPECTOR")
+st.markdown("Upload a welding image to detect and classify defects")
 
 uploaded_file = st.file_uploader("📤 Upload an image", type=["jpg", "jpeg", "png"])
 
