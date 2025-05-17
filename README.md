@@ -3,8 +3,8 @@ title: AI Visual Inspector
 emoji: 😻
 colorFrom: pink
 colorTo: indigo
-sdk: gradio
-sdk_version: 5.29.1
+sdk: streamlit
+sdk_version: 1.44.1
 app_file: app.py
 pinned: false
 license: mit
