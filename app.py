@@ -28,13 +28,3 @@ if uploaded_file:
     annotated_img = Image.fromarray(results.plot())
     st.image(annotated_img, caption="🔍 Defects Detected", use_container_width=True)
 
-    # Extract detected class names
-    st.subheader("📋 Detected Defect Types:")
-    if results.boxes and results.boxes.cls.numel() > 0:
-        class_ids = results.boxes.cls.int().tolist()
-        class_names = [results.names[int(cls_id)] for cls_id in class_ids]
-        unique_names = sorted(set(class_names))
-        for name in unique_names:
-            st.success(f"✅ {name}")
-    else:
-        st.info("No defects detected.")
