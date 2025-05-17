@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from ultralytics import YOLO
 import tempfile
 
 # Load your trained YOLOv8 model
