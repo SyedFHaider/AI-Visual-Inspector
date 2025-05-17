@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import tempfile
 
 # Load your trained YOLOv8 model
-model = YOLO("/content/runs/detect/welding_defect_detection/weights/best.pt")
+model = YOLO("weights")
 
 st.set_page_config(page_title="Welding Defect Detector", layout="centered")
 st.title("🛠️ Welding Defect Detector")
