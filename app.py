@@ -9,7 +9,7 @@ st.title("🛠️ Welding Defect Detector")
 st.markdown("Upload a welding image to detect and classify defects like porosity, pinhole, crack, etc.")
 
 # Load trained model (make sure 'best.pt' is in the same directory)
-model_path = "weights"
+model_path = "best.pt"
 if not os.path.exists(model_path):
     st.error("❌ Model file not found. Please upload best.pt to the app directory.")
 else:
