@@ -4,6 +4,10 @@ from PIL import Image
 import tempfile
 import os
 
+pip install -r requirements.txt
+streamlit run app.py
+
+
 st.set_page_config(page_title="AI VISUAL INSPECTOR", page_icon="⚡", layout="centered")
 
 # App title with custom style
